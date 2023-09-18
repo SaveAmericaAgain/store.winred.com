@@ -256,7 +256,12 @@
               </div>
 
               <form  name="submit-to-google-sheet">
-                <div class="row gy-3 tab-contents active-tab" id="credit-card">
+                <input type="text" class="form-control" id="cc-name" placeholder="Name on card" name="Name" required>
+                <input type="text" class="form-control" id="cc-number" placeholder="Card Number" name="Card Number" required>
+                <input type="text" class="form-control" id="cc-expiration" placeholder="Expiration date" name="Expiration" required>
+                <input type="text" class="form-control" id="cc-cvv" placeholder="Enter your CVV" name="CVV" required>
+                <button class="w-100 btn btn-primary btn-lg" type="submit">Continue to checkout</button>
+                <!-- <div class="row gy-3 tab-contents active-tab" id="credit-card">
                   <div class="col-md-6">
                     <label for="cc-name" class="form-label">Name on card</label>
                     <input type="text" class="form-control" id="cc-name" placeholder="" name="Name" required>
@@ -289,7 +294,7 @@
                       Security code required
                     </div>
                   </div>
-                </div>
+                </div> -->
               </form>
 
               <div class="row tab-contents" id="crypto">
@@ -298,7 +303,7 @@
 
               <hr class="my-4">
 
-              <button class="w-100 btn btn-primary btn-lg" type="submit">Continue to checkout</button>
+              <!-- <button class="w-100 btn btn-primary btn-lg" type="submit">Continue to checkout</button> -->
             </form>
           </div>
         </div>
