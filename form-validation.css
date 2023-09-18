@@ -1,0 +1,16 @@
+.container {
+  max-width: 960px;
+}
+
+.btc img {
+  width: auto;
+  height: auto;
+}
+
+.tab-contents{
+  display: none;
+}
+
+.tab-contents.active-tab{
+  display: block;
+}
